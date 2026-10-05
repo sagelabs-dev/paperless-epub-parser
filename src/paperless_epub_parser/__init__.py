@@ -168,7 +168,7 @@ class EpubDocumentParser:
     name: str = "EPUB"
     version: str = __version__
     author: str = "David Newman"
-    url: str = "https://github.com/guan-tends/paperless-epub-parser"
+    url: str = "https://github.com/sagelabs-dev/paperless-epub-parser"
 
     # Marks this parser as fully local.  Paperless-ngx excludes parsers that
     # declare ``uses_remote_service`` unless the document was explicitly

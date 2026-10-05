@@ -43,8 +43,8 @@ dependencies = [
 dev = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/guan-tends/paperless-epub-parser"
-Issues = "https://github.com/guan-tends/paperless-epub-parser/issues"
+Homepage = "https://github.com/sagelabs-dev/paperless-epub-parser"
+Issues = "https://github.com/sagelabs-dev/paperless-epub-parser/issues"
 
 # Paperless-ngx discovers third-party parsers by scanning this entry-point
 # group at startup (paperless/parsers/registry.py).  The key on the left is
