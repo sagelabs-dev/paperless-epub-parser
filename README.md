@@ -252,6 +252,16 @@ MIT — see [LICENSE](LICENSE).
 
 Copyright (c) 2026 David Newman and Guan.
 
+## Sponsors
+
+If paperless-epub-parser is useful to you, consider supporting its continued development:
+
+- **[GitHub Sponsors](https://github.com/sponsors/guan-tends)**
+- **Bitcoin:** `bc1q0gd3mwjg3zy9sghv22kmpg823vss4c0zzdzg24`
+- **Solana:** `Eu8wQcW68TKMs1a6eqzZu8znzU52QLqQugAMG8uCD6y6`
+- **Ethereum / EVM:** `0x2733ff7c865C56d565a99BE1DC11B81cc76850A5`
+- **XRP Ledger:** `r4X6e7McAQj7e8vBCeued1RYu4mCJrREDG`
+
 ---
 
 Crafted with ❤️ by [Sage Labs](https://sagelabs.dev)
