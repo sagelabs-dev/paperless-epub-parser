@@ -1,0 +1,25 @@
+name: Gitea CI
+# Gitea-native CI. Runner labels: self-hosted,linux,docker.
+# Clones over the internal gitea:3000 hostname (no LAN IP in this file).
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: self-hosted
+    container:
+      image: python:3.12
+    steps:
+      - name: Checkout
+        run: |
+          git config --global --add safe.directory '*'
+          git clone --depth 1 "http://guan:${{ github.token }}@gitea:3000/guan/paperless-epub-parser.git" .repo
+      - name: Install
+        working-directory: .repo
+        run: pip install -e ".[dev]"
+      - name: Test
+        working-directory: .repo
+        run: pytest -v
